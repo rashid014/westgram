@@ -9,13 +9,13 @@ const adminController = require("../controllers/adminController");
 const productController=require("../controllers/productController");
 const bannerController=require("../controllers/bannerController");
 const couponController=require("../controllers/couponController");
-admin_route.get('/adminlogin', (req, res) => {
-    // Define the message variable based on your logic
-    const message = 'Some error message';
+// admin_route.get('/', (req, res) => {
+//     // Define the message variable based on your logic
+//     const message = 'Some error message';
   
-    // Render the adminLogin view and pass the message variable
-    res.render('adminLogin', { message });
-  });
+//     // Render the adminLogin view and pass the message variable
+//     res.render('adminLogin', { message });
+//   });
   
   
 
