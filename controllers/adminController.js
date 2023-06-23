@@ -20,7 +20,7 @@ const securePassword = async (password) => {
 
 const loadLogin = async (req, res) => {
   try {
-    res.render("adminlogin", { user: req.session.user });
+    res.render("adminLogin", { user: req.session.user });
   } catch (error) {
     console.log(error.message);
   }
